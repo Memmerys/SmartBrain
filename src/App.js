@@ -16,15 +16,15 @@ const app = new Clarifai.App({
 
 const particlesOptions = {
   particles: {
-    numbers: {
-      value: 500,
+    number: {
+      value: 150,
       density: {
         enable: true,
-        value_area: 500,
+        value_area: 800
       }
     }
   }
-}
+};
 
 class App extends Component {
   constructor() {
@@ -82,7 +82,7 @@ displayFaceBox = (box) => {
     return (
       <div className="App">
       <Particles className='particles'
-      params={{particlesOptions}}          
+      params={particlesOptions}          
       />
   
   <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange}/>

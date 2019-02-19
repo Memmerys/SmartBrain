@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "babel-eslint": "^10.0.1",
     "clarifai": "^2.9.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
